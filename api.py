@@ -12,7 +12,7 @@ def greet():
 
 
 def load():
-    model_path = "model.h5"
+    model_path = "best_model.h5"
     model = load_model(model_path, compile=False)
     return model
 
